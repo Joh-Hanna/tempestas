@@ -1,17 +1,97 @@
 body {
-    background: aliceblue;
+    background: rgb(215, 225, 234);
     font-family: "Merienda", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
 
-
 .weather-app {
     background-color: white;
-    max-width: 700px;
+    max-width: 600px;
     margin: 100px auto;
     padding: 50px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 80%);
     border-radius: 20px;
 }
+
+header {
+    border-bottom: 1px solid rgb(200, 175, 250);
+    padding: 0 0 20px 0;
+}
+
+.search-input {
+    background: rgb(215, 225, 234);
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.search-button {
+    background: rgb(26, 212, 232);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-left: 5px;
+    color: aliceblue;
+}
+
+main {
+    padding: 30px 0;
+}
+
+.weather-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-city{
+    margin: 0;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.weather-details{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.extra{
+    font-weight: 900;
+    color: rgb(217, 107, 193);
+}
+
+.weather-temperature {
+  display: flex;
+  
+}
+.weather-emoji {
+    font-size: 70px;
+    margin-top: 5px;
+}
+
+.current-temperature {
+    font-size: 88px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.unit {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+a {
+    color: rgb(26, 212, 232);
+}
+
+footer {
+    border-top: 1px solid rgb(200, 175, 250);
+    padding: 20px 0 0 0;
+    font-size: 12px;
+    text-align: center;
+    color: rgba( 0,0,0, 70%);
+ }
