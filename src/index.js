@@ -10,7 +10,7 @@ let icon = document.querySelector("#icon");
 icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-image">`;
 
 currentTemperature.innerHTML = Math.round(response.data.temperature.current);
-currentCity.innerHTML = response.data.city;
+currentCity.innerHTML = (response.data.city).trim();
 weatherDescription.innerHTML = response.data.condition.description;
 humidity.innerHTML = `${response.data.temperature.humidity}%`;
 windspeed.innerHTML = `${response.data.wind.speed}km/h`;
