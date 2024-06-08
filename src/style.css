@@ -91,14 +91,14 @@ main {
     font-size: 25px;
 }
 
-.weather-forecast {
+#weather-forecast {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
-   
+}
 
     
-}
+
 
 .forecast-date {
     text-align: center;
