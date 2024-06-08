@@ -66,21 +66,27 @@ main {
 
 .weather-temperature {
   display: flex;
+  margin-right: 15px;
+  
   
 }
-.weather-emoji {
-    font-size: 70px;
-    margin-top: 5px;
+.weather-image {
+    width: 90px;
+    height: 90px;
+    
+    
 }
 
 .current-temperature {
     font-size: 88px;
     font-weight: bold;
-    margin-left: 10px;
+    line-height: 1;
+    
 }
 
 .unit {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-right: 15px;
     font-size: 25px;
 }
 

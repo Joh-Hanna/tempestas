@@ -6,6 +6,9 @@ let humidity = document.querySelector("#humidity");
 let windspeed = document.querySelector("#windspeed");
 let time = document.querySelector("#time");
 let date = new Date(response.data.time*1000);
+let icon = document.querySelector("#icon");
+icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-image">`;
+
 currentTemperature.innerHTML = Math.round(response.data.temperature.current);
 currentCity.innerHTML = response.data.city;
 weatherDescription.innerHTML = response.data.condition.description;
