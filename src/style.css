@@ -105,8 +105,8 @@ main {
    font-size: 22px;
    opacity: 60%;
 }
-.forecast-icon {
-    
+.icon {
+    text-align: center;
 }
 .forecast-max-temperature {
     font-size: 18px;
