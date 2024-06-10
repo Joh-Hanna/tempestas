@@ -98,15 +98,22 @@ main {
 }
 
     
-
+.forecast-day {
+    text-align: center;
+}
 
 .forecast-date {
-    text-align: center;
+    
    font-size: 22px;
    opacity: 60%;
 }
 .icon {
-    text-align: center;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    
+    
 }
 .forecast-max-temperature {
     font-size: 18px;
